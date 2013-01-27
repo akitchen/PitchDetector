@@ -254,8 +254,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Demetri Miller (J8ERALU9C7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Demetri Miller (J8ERALU9C7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -263,8 +263,8 @@
 				GCC_PREFIX_HEADER = PitchDetector_Prefix.pch;
 				INFOPLIST_FILE = "PitchDetector-Info.plist";
 				PRODUCT_NAME = PitchDetector;
-				PROVISIONING_PROFILE = "7BE79BEB-89EE-4CB6-ABEB-5759F8600440";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7BE79BEB-89EE-4CB6-ABEB-5759F8600440";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 			};
 			name = Debug;
 		};
@@ -272,15 +272,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Demetri Miller (J8ERALU9C7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Demetri Miller (J8ERALU9C7)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PitchDetector_Prefix.pch;
 				INFOPLIST_FILE = "PitchDetector-Info.plist";
 				PRODUCT_NAME = PitchDetector;
-				PROVISIONING_PROFILE = "7BE79BEB-89EE-4CB6-ABEB-5759F8600440";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7BE79BEB-89EE-4CB6-ABEB-5759F8600440";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
